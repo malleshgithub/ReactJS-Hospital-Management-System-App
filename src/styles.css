@@ -1,0 +1,72 @@
+/* Second css file */
+/* Background images start */
+.main-container{
+    /* background-color: green; */
+    background-image: url("./images/doctors.jpg");
+    background-size: cover;
+    padding: 1rem;
+    box-shadow: 1px 2px 10px 5px white;
+    animation: slider 30s infinite linear;
+  }
+  @keyframes slider{
+    0%{ background-image: url("./images/doctor.jpg");}
+    15%{ background-image: url("./images/doctors.jpg");}
+    35%{ background-image: url("./images/doc.jpg");}
+    55%{ background-image: url("./images/steth.jpeg");}
+    75%{ background-image: url("./images/doct.jpg");}
+    95%{ background-image: url("./images/ourdoc.jpg");}
+  
+  }
+  /* Background images end */
+  h3{
+    color: maroon;
+    margin-left: 400px;
+  }
+  /* CSS Marquee start */
+  .cssmarquee {
+    height: 50px;  
+    overflow: hidden;
+    position: relative;
+   }
+   .cssmarquee h3 {
+    font-size: 2em;
+    color: maroon;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;    
+    transform:translateX(100%);
+    animation: cssmarquee 10s linear infinite;
+   }
+     
+   @keyframes cssmarquee {
+    0%   { 
+    transform: translateX(100%);       
+    }
+    100% { 
+     
+    transform: translateX(-100%); 
+    }
+   }
+   /* CSS Marquee end */
+   
+/* Background images homepage start */
+.main-container-images{
+    /* background-color: green; */
+    background-image: url("./images/homepa.jpg");
+    background-size: cover;
+    padding: 15rem;
+    box-shadow: 1px 2px 10px 5px white;
+    animation: homeslider 20s infinite linear;
+  }
+  @keyframes homeslider{
+    0%{ background-image: url("./images/homepa.jpg");}
+    15%{ background-image: url("./images/homep.jpg");}
+    35%{ background-image: url("./images/HMS.PNG");}
+    55%{ background-image: url("./images/HMSD.PNG");}
+    75%{ background-image: url("./images/HMSH.PNG");}
+    95%{ background-image: url("./images/HMST.PNG");}
+  }
+  /* Background images homepage end */
