@@ -209,7 +209,9 @@ export default class Register extends Component {
   }
 
   render() {
+    
     return (
+      <section className="main-container">
       <div className="col-md-12">
         <div className="card card-container">
           <img
@@ -349,6 +351,8 @@ export default class Register extends Component {
           </Form>
         </div>
       </div>
+      </section>
     );
+    
   }
 }
